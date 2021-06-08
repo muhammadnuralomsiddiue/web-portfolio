@@ -1,0 +1,78 @@
+body{
+    font-family: 'Maven Pro', sans-serif;
+}
+h1{
+    font-size: 50px;
+    font-weight: 700; 
+}
+section{
+    height: 700px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-top: 5%;
+    
+}
+#profile1{
+    width: 100%;
+}
+#profile22{
+    width: 100%;
+}
+.name-highlight{
+    color: orange;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.half-width-second{
+    width: 40%;
+    float: left ;
+}
+.experiences {
+    margin-left: 2%;
+    box-shadow: 15px 15px 30px grey;
+    border-radius: 2px;
+    height: 80px;
+    width: 300px;
+    padding: 10px;
+    margin-left: 5%;
+}
+.single-experience {
+    box-shadow: 15px 15px 30px grey;
+    border-radius: 5px;
+    height: 50%;
+    width: 44%;
+    padding: 4% 1% 1% 1%;
+}
+#full-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,rgb(252, 77, 46),rgb(233, 176, 154));
+    border-image-slice: 1;
+}
+#baby-web {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,rgb(9, 71, 241),rgb(71, 249, 255));
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+}
+
